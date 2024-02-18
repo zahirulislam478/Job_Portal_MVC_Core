@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\views\\jobposters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\views\\jobposters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\controllers\\jobposterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\controllers\\jobposterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\views\\jobposters\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\views\\jobposters\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\hostedservices\\identitydbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\hostedservices\\identitydbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\viewmodels\\input\\jobseekerinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\viewmodels\\input\\jobseekerinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\viewmodels\\input\\jobpostinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\viewmodels\\input\\jobpostinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\views\\jobseekers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\views\\jobseekers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|c:\\users\\zahirul islam\\desktop\\project\\jobportal\\jobportal\\jobportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EED4D399-6651-4234-988C-C9A056BDAD69}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\jobportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "JobPortal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "JobPortal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAYwC0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T18:04:51.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Views\\JobPosters\\Profile.cshtml",
+              "RelativeDocumentMoniker": "JobPortal\\Views\\JobPosters\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Views\\JobPosters\\Profile.cshtml",
+              "RelativeToolTip": "JobPortal\\Views\\JobPosters\\Profile.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T18:04:51.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbModel.cs",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Models\\DbModel.cs",
+              "RelativeDocumentMoniker": "JobPortal\\Models\\DbModel.cs",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Models\\DbModel.cs",
+              "RelativeToolTip": "JobPortal\\Models\\DbModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:04:51.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JobPostInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\ViewModels\\Input\\JobPostInputModel.cs",
+              "RelativeDocumentMoniker": "JobPortal\\ViewModels\\Input\\JobPostInputModel.cs",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\ViewModels\\Input\\JobPostInputModel.cs",
+              "RelativeToolTip": "JobPortal\\ViewModels\\Input\\JobPostInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:04:51.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "JobPortal\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "JobPortal\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:04:51.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Views\\JobPosters\\Index.cshtml",
+              "RelativeDocumentMoniker": "JobPortal\\Views\\JobPosters\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Views\\JobPosters\\Index.cshtml",
+              "RelativeToolTip": "JobPortal\\Views\\JobPosters\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T18:04:51.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Program.cs",
+              "RelativeDocumentMoniker": "JobPortal\\Program.cs",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Program.cs",
+              "RelativeToolTip": "JobPortal\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:04:51.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IdentityDbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\HostedServices\\IdentityDbInitializer.cs",
+              "RelativeDocumentMoniker": "JobPortal\\HostedServices\\IdentityDbInitializer.cs",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\HostedServices\\IdentityDbInitializer.cs",
+              "RelativeToolTip": "JobPortal\\HostedServices\\IdentityDbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:04:51.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "JobPortal\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "JobPortal\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAcwGIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:04:51.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JobPostersController.cs",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Controllers\\JobPostersController.cs",
+              "RelativeDocumentMoniker": "JobPortal\\Controllers\\JobPostersController.cs",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Controllers\\JobPostersController.cs",
+              "RelativeToolTip": "JobPortal\\Controllers\\JobPostersController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAawBUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:04:51.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "JobPortal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "JobPortal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAIwGwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T18:04:51.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobSeekerInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\ViewModels\\Input\\JobSeekerInputModel.cs",
+              "RelativeDocumentMoniker": "JobPortal\\ViewModels\\Input\\JobSeekerInputModel.cs",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\ViewModels\\Input\\JobSeekerInputModel.cs",
+              "RelativeToolTip": "JobPortal\\ViewModels\\Input\\JobSeekerInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:04:51.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Views\\JobSeekers\\Index.cshtml",
+              "RelativeDocumentMoniker": "JobPortal\\Views\\JobSeekers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\Views\\JobSeekers\\Index.cshtml",
+              "RelativeToolTip": "JobPortal\\Views\\JobSeekers\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswC8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T18:04:51.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JobPortal.csproj",
+              "DocumentMoniker": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\JobPortal.csproj",
+              "RelativeDocumentMoniker": "JobPortal\\JobPortal.csproj",
+              "ToolTip": "C:\\Users\\Zahirul Islam\\Desktop\\Project\\JobPortal\\JobPortal\\JobPortal.csproj",
+              "RelativeToolTip": "JobPortal\\JobPortal.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-18T18:04:51.383Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

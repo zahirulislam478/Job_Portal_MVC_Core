@@ -1,0 +1,133 @@
+﻿@model IEnumerable<JobPost>
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h3>Job Posts</h3>
+        <div class="d-flex justify-content-between mb-1">
+           <form asp-controller="JobPosters" asp-action="index" method="post" id="filter">
+                <select class="form-select form-select-sm" name="status" id="status" >
+                    <option value="closed" selected="@(ViewBag.Status == "closed")">Closed</option>
+                    <option value="open" selected ="@(ViewBag.Status =="open")">Open</option>
+                    <option value="all" selected="@(ViewBag.Status == "all")">All</option>
+                </select>
+           </form>
+            <a asp-action="Create" asp-controller="JobPosters" class="btn btn-primary btn-sm">Create New</a>
+        </div>
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <td>
+                       
+                    </td>
+                    <th>Post Name</th>
+                    <th>Postion</th>
+                    <th>Location</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Open/Close</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var p in Model)
+                {
+                    <tr id="tr_@p.JobPostId">
+                       <td>
+                           <button type="button" class="btn btn-light select" data-pk="@p.JobPostId">
+                               <i class="bi bi-plus" id="show_@p.JobPostId"></i>
+                                <i class="bi bi-dash" id="hide_@p.JobPostId" style="display:none"></i>
+                           </button>
+                       </td>
+                        <td>@p.JobPostName</td>
+                        <td>@p.Postion</td>
+                        <td>@p.Location</td>
+                        <td>@p.Description</td>
+                        <td>@(p.IsClosed ? "Closed": "Open")</td>
+                        <td>
+                            @if(p.IsClosed)
+                            {
+                                <input type="checkbox" name="status" class="open" data-pk="@p.JobPosterId" checked />
+                            }
+                            else
+                            {
+                                <input type="checkbox" name="status" class="open" data-pk="@p.JobPosterId" />
+                            }
+
+                        </td>
+                    </tr>
+                    <tr id="trc_@p.JobPostId" style="display:none">
+                        <td></td>
+                        <td colspan="6">
+                            <h4>Candidates applied for</h4>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Candidate name</th>
+                                        <th>User Id</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach(var q in p.JobSeekerJobPosts)
+                                    {
+                                        <tr>
+                                            <td>@q.JobSeeker?.FullName</td>
+                                            <td>@q.JobSeeker?.UserId</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-end">
+            @Html.PagedListPager((IPagedList)Model, pg => Url.Action("Index", new { pg = pg }), new PagedListRenderOptions
+            {
+                UlElementClasses= new string[]{"pagination", "pagination-sm"},
+                LiElementClasses = new string[] { "page-item" },
+                PageClasses = new string[] { "page-link" }
+               
+            })
+        </div>
+    </div>
+</div>
+@section styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+}
+@section scripts
+    {
+    <script src="~/libs/jquery/jquery.js"></script>
+   <script>
+        $("#status").change(()=>{
+            $("#filter").submit();
+            
+        });
+        $(".open").click(function () {
+            var id=$(this).data('pk');
+            var checked = this.checked;
+            $.ajax({
+                type:"post",
+                url: "/JobPosters/UpdateStatus",
+                dataType: "json",
+                data: {id:id, status:checked},
+                success: r=>{
+                    if (r.success==true){
+                        window.location.reload();
+                    }
+                }
+            })
+        });
+        $("button.select").click(function(){
+            let id=$(this).data('pk');
+            $('#trc_'+id).toggle();
+            $("#show_"+id).toggle();
+            $("#hide_" + id).toggle();
+        });
+   </script>
+}

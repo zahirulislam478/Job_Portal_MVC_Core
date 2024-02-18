@@ -1,0 +1,111 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims;
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@inject   IHttpContextAccessor httpContextAccessor
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+  
+    <link href="~/libs/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/libs/bootstrap/js/bootstrap.bundle.js"></script>
+    
+   
+   
+
+    <style>
+        body {
+            padding-top: 70px;
+            
+        }
+        .main {
+            min-height: calc( 100vh - 150px );
+        }
+    </style>
+    @await RenderSectionAsync("styles", false)
+</head>
+<body>
+    <navbar class="navbar bg-white navbar-expand-md fixed-top shadow-sm px-2">
+        <div class="container-fluid">
+            <span class="navbar-brand">Job Portal <sup>v1</sup></span>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nv" aria-controls="nv" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse" id="nv">
+                <ul class="navbar-nav  me-auto">
+                    <li class="nav-item">
+                        <a asp-action="Index" asp-controller="Home" class="nav-link">Home</a>
+                    </li>
+                    
+                </ul>
+                <ul class="navbar-nav  ms-auto">
+                    @{
+                        bool inrole=false;
+                        bool inseekerrole = false;
+                        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                        var user = await UserManager.FindByIdAsync(userId ?? "");
+                        if (user != null)
+                        {
+                            inrole = await UserManager.IsInRoleAsync(user, "JobPoster");
+                            inseekerrole = await UserManager.IsInRoleAsync(user, "JobSeeker");
+                        }
+
+                    }
+                    @if (SignInManager.IsSignedIn(User) && inrole)
+                    {
+                        <li class="nav-item">
+                            <a asp-action="Index" asp-controller="JobPosters" class="nav-link">Posts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="Profile" asp-controller="JobPosters" class="nav-link">Profile</a>
+                        </li>
+                    }
+                    @if (SignInManager.IsSignedIn(User) && inseekerrole)
+                    {
+                        <li class="nav-item">
+                            <a asp-action="Index" asp-controller="JobSeekers" class="nav-link">My Applies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="Profile" asp-controller="JobSeekers" class="nav-link">Profile</a>
+                        </li>
+                    }
+
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        
+                        <li class="nav-item">
+                            <a asp-action="Logout" asp-controller="Account" class="nav-link">Signout</a>
+                        </li>
+
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a asp-action="Register" asp-controller="Account" class="nav-link">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="Login" asp-controller="Account" class="nav-link">Login</a>
+                        </li>
+                    }
+
+                </ul>
+
+            </div>
+
+        </div>
+    </navbar>
+    <main class="container-fluid main">
+        @RenderBody()
+    </main>
+    <footer class="container-fluid">
+        &copy; @DateTime.Today.Year
+    </footer>
+    @await RenderSectionAsync("scripts", false)
+</body>
+</html>
